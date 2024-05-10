@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web Saytı HTML CSS JS | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz.</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Əsas</a>
+                <a href="#">Haqqında</a>
+                <a href="#">Xidmətlər</a>
+                <a href="#">Əlaqə</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Web Saytı Təlimləri</span>
+                        <span class="header-score">Bal: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">HTML nə üçün istifadə olunur?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multi Language</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 / 5 Suallar</span>
+                        <button class="next-btn">Növbəti</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz Nəticəsi!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Sizin Balınız: 0 / 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Yenidən Cəhd Edin</button>
+                        <button class="goHome-btn">Əsas Səhifəyə Keçin</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Web Saytı</h1>
+                    <p>Saytımıza xoş gəldiniz! Quizə başlamaq üçün aşağıdakı düyməyə basın.Quizə Başlayın.Əyləncəli və maraqlı bir təcrübə üçün, həzz alın!</p>
+                    <button class="start-btn">Quizə Başlayın</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Rehberi</h2>
+        <span class="info">1. İlk suala cavab verin.</span>
+        <span class="info">2. Cavabınızı seçin və növbəti düyməsinə basın.</span>
+        <span class="info">3. Bütün sualları cavablandırın.</span>
+        <span class="info">4. Nəticənizi görəcəksiniz.</span>
+        <span class="info">5. Daha çox imtahan əyləncəsinin keyfini çıxarın!</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Quizdən Çıxın</button>
+            <a href="#" class="info-btn continue-btn">Davam Edin</a>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
